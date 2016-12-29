@@ -1,1 +1,82 @@
 
+body {
+  background: Lilia;
+}
+
+h1 {
+  color: #107896;
+  font-family: 'Helvetic Neue', sans-serif;
+  font-size: 175px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height:1;
+  text-align: center;
+}
+
+h2 {
+  color: #685206;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: auto;
+  margin: 0 0 100px;
+  text-align: center;
+  letter-spacing: auto;
+}
+
+hr {
+  display: block;
+  margin-top: -1.0em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+
+p {
+  color:#685206;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 0 24px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.subhead {
+  color:#107896;
+  font-family: 'Trebuchet MS', sans-serif;
+  display: inline-block;
+  font-size: 59px;
+  text-align: justify;
+  line-height: 50px;
+  margin: -10px 10px -10px -10px;
+}
+
+.circle {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  border: #6495ed;
+  background-color: MintCream;
+  margin: 10px 10px 50px 20px;
+  display: inline-block;
+}
+
+img {
+  opacity: 0.7;
+  filter: alpha(opacity=50);
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
