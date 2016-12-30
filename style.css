@@ -77,16 +77,6 @@ hr {
 }
 
 
-p {
-  color:#685206;
-  font-family: 'Helvetica Neue', sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  margin: 0 0 24px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 .wrapper {
   width: 600px;
   margin: 0 auto;
@@ -128,5 +118,7 @@ h5 {
   font-size: 20px;
   text-align: center;
   letter-spacing: auto;
+  font-weight: 300;
+
 }
   
