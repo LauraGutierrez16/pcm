@@ -12,8 +12,8 @@ body {
  background-size: cover;
  
   display: inline-block;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
 }
 
 ul {
