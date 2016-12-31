@@ -5,10 +5,10 @@ body {
 
 .round {
   height: 51px;
-  width: 50px;
+  width: 100px;
   line-height: 50;
-  border-radius: 50px;
- background-image:url('https://lh3.googleusercontent.com/r9ErpNEkHhG6UOjBrOiQBRS4RTYkwJvD2ZXm0zcm_h3wYuPPkkNyUlfZ3A8tQthlyaf3PQyn1D2LMw=w5120-h3200-no');
+  border-radius: 100px;
+ background-image:url('https://lh3.googleusercontent.com/i51-SFcf_z-L1_CsywacMsLVJ4ca2q8AJKs9ozNeC69uVL3stWT6_T0aqYcBUNWp_8lCoE6vW6l4nQ=w5120-h3200-no');
  background-size: cover;
  
   display: inline-block;
