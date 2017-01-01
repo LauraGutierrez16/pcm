@@ -1,6 +1,9 @@
 body {
-  background: Lilia;
-  margin: 0;
+margin: 0;
+background: #abbaab; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #abbaab , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+         
 }
 
 .round {
@@ -22,7 +25,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: DeepPink;
+  background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
@@ -35,21 +38,20 @@ li {
 
 li a,.special {
   display: block;
-  color: white;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none; 
   font-size: 20px;
 }
+
 li a:hover {
-  background-color: #111;
-}
-li hover:not(.special){
-  background-color:DeepPink;
+  background-color: LightGrey;
 }
 
+
 h1 {
-  color: #107896;
+  color: #000000;
   font-family: 'Helvetic Neue', sans-serif;
   font-size: 150px;
   font-weight: bold;
@@ -58,8 +60,8 @@ h1 {
   text-align: center;
 }
 
-h2 {
-  color: #685206;
+h2,p {
+  color: #222222;
   font-family:'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -69,15 +71,10 @@ h2 {
   letter-spacing: auto;
 }
 
-hr {
-  display: block;
-  margin-top: -1.0em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
+.parone {
+  font-size: 20px;
 }
+
 
 
 .wrapper {
@@ -86,7 +83,7 @@ hr {
 }
 
 .subhead {
-  color:#107896;
+  color:#000000;
   font-family: 'Trebuchet MS', sans-serif;
   display: inline-block;
   font-size: 59px;
@@ -98,16 +95,13 @@ hr {
 .circle {
   height: 50px;
   width: 50px;
-  line-height: 50px;
   border-radius: 50px;
-  border: #6495ed;
-  background-color: MintCream;
   margin: 10px 10px 50px 20px;
   display: inline-block;
 }
 
 img {
-  opacity: 0.7;
+  opacity: 0.8;
   filter: alpha(opacity=50);
 }
 img:hover {
@@ -115,13 +109,6 @@ img:hover {
     filter: alpha(opacity=100); 
 }
 
-h5 {
-  color: #685206;
-  font-family:'Open Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: auto;
-  font-weight: 300;
 
-}
+
   
