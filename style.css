@@ -33,7 +33,7 @@ li {
   float: right;
 }
 
-li a {
+li a,.special {
   display: block;
   color: white;
   text-align: center;
@@ -44,7 +44,9 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
+li hover:not(.special){
+  background-color:DeepPink;
+}
 
 h1 {
   color: #107896;
